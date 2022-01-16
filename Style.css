@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0f0f0f 16.62%, #121b4d 85.61%);
+    color: darkgray;
+}
+.header {
+    font-family: 'Jost', sans-serif;
+    color: darkgray;
+}
+.Barra-navegação {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    color: darkgray;
+    font-family: 'Jost', sans-serif;
+}
+.Itens-barra-navegação {
+    font-family: 'Jost', sans-serif;
+    color: darkgray;
+}
+.introdução {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+}
+.linkedin {
+    width: 25px;
+    
+}
+.github {
+    width: 25px;
+}
